@@ -318,3 +318,23 @@ import random
 #     else:
 #         cnt_dict[ch] = 0
 #     print(ch if cnt_dict[ch] < 1 else f'{ch}_{cnt_dict[ch]}')
+
+
+# lst = ['a', 'b', 'c', 'd']
+# for i in range(len(lst)):
+#     if lst[i] == 'c':
+#         lst[i] = 'C'
+
+# print(lst)
+
+a = [1, 2, 3]
+b = a
+
+
+a.append(4)
+print(a)
+print(b)
+
+
+
+
